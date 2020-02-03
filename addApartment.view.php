@@ -58,7 +58,7 @@ $result = mysqli_fetch_assoc($query);
 				</div>
 				<div class="form-check-inline">
 					<label class="form-check-label">
-						<input type="radio" class="form-check-input" name="opt" value="rowels">Peškiri
+						<input type="radio" class="form-check-input" name="opt" value="towels">Peškiri
 					</label>
 				</div>
 				<br>
