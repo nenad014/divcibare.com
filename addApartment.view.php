@@ -33,32 +33,32 @@ $result = mysqli_fetch_assoc($query);
 				<label>Dodatne usluge</label><br>
 				<div class="form-check-inline">
 					<label class="form-check-label">
-						<input type="radio" class="form-check-input" name="optradio1" value="internet">Internet
+						<input type="radio" class="form-check-input" name="opt" value="internet">Internet
 					</label>
 				</div>
 				<div class="form-check-inline">
 					<label class="form-check-label">
-						<input type="radio" class="form-check-input" name="optradio2" value="pet_friendly">Kućni ljubimci
+						<input type="radio" class="form-check-input" name="opt" value="pet_friendly">Kućni ljubimci
 					</label>
 				</div>
 				<div class="form-check-inline">
 					<label class="form-check-label">
-						<input type="radio" class="form-check-input" name="optradio3" value="tv">TV
+						<input type="radio" class="form-check-input" name="opt" value="tv">TV
 					</label>
 				</div>
 				<div class="form-check-inline">
 					<label class="form-check-label">
-						<input type="radio" class="form-check-input" name="optradio4" value="parking">Parking
+						<input type="radio" class="form-check-input" name="opt" value="parking">Parking
 					</label>
 				</div>
 				<div class="form-check-inline">
 					<label class="form-check-label">
-						<input type="radio" class="form-check-input" name="optradio5" value="kitchen">Kuhinja
+						<input type="radio" class="form-check-input" name="opt" value="kitchen">Kuhinja
 					</label>
 				</div>
 				<div class="form-check-inline">
 					<label class="form-check-label">
-						<input type="radio" class="form-check-input" name="optradio6" value="rowels">Peškiri
+						<input type="radio" class="form-check-input" name="opt" value="rowels">Peškiri
 					</label>
 				</div>
 				<br>
