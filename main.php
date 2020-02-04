@@ -85,7 +85,7 @@
 		</div>
 		<div class="col-sm-3 text-center">
 			<i class="fas fa-skiing" style='font-size:64px'></i>
-			<h4 class="text-center"><a href="skiSteze.php">SKIJAŠKE STAZE</a></h4>
+			<h4 class="text-center"><a href="skiStaze.php">SKIJAŠKE STAZE</a></h4>
 		</div>
 		<div class="col-sm-3 text-center">
 			<i class="fas fa-biking" style='font-size:64px'></i>
