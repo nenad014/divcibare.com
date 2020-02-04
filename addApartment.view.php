@@ -22,8 +22,23 @@ $result = mysqli_fetch_assoc($query);
 			<form action="addApartment.php" method="POST" enctype="multipart/form-data">
 				<label>Naziv apartmana</label>
 				<input type="text" name="name" class="form-control" placeholder="Ime apartmana"><br>
-				<label>Broj soba</label>
-				<input type="number" name="no_of_rooms" class="form-control" placeholder="Broj soba"><br>
+				<label>Internet prezentacija</label>
+				<input type="text" name="webPage" class="form-control" placeholder="Unesite url vašeg sajta"><br>
+				<div class="row">
+					<div class="col-sm-6">
+						<label>Broj soba</label>
+						<input type="number" name="no_of_rooms" class="form-control" placeholder="Broj soba">
+					</div>
+					<div class="col-sm-6">
+						<label>Tip soba</label>
+						<select class="form-control" name="roomType" multiple>
+							<option value="jednokrevetna">1/1</option>
+							<option value="dvokrevetna">1/2</option>
+							<option value="trokrevetna">1/3</option>
+							<option value="cetvorokrevetna">1/4</option>
+						</select>
+					</div>
+				</div><br>
 				<label>Cena po osobi</label>
 				<div class="row">
 					<div class="col-sm-6"><input type="text" name="price_adults" class="form-control" placeholder="Odrasli"></div>
